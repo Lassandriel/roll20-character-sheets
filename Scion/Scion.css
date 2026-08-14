@@ -273,7 +273,7 @@ select.sheet-select_skill {
     width:80px;
     font-size:10px;
     line-height: 14px;
-    height:16px;
+    height:18px;
     
     
 }
@@ -1244,4 +1244,9 @@ button[type=roll].sheet-adv3:active {
 .sheet-rolltemplate-display .inlinerollresult.importantroll {
 	color: #3FB315;
     border: none;
+}
+
+.charsheet input.sheet-bigcheck[name^="attr_willpower_box"] + span::before,
+.charsheet input.sheet-bigcheck[name^="attr_Legend_box"] + span::before {
+    margin-right: 1px;
 }
